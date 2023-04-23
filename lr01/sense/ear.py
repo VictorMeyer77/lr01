@@ -28,7 +28,7 @@ class Ear:
         return memory_str
 
 
-"""
+
 a = Ear()
 
 
@@ -43,4 +43,4 @@ while True:
     mem = a.get_memory()
     if mem != "":
         print(mem)
-    time.sleep(1)"""
+    time.sleep(1)
