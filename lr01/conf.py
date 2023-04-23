@@ -8,4 +8,4 @@ class Conf:
 
     def get_chat_gpt_key(self):
         with open(os.path.join(self.conf_dir_path, "chatgpt.key"), "r") as file:
-            return file.readlines()[0]
+            return file.readlines()[0].replace("\n", "")
